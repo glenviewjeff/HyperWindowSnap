@@ -16,12 +16,12 @@ Hyper Window Snap is a script for [AutoHotKey] that expands upon Windows built-i
 
 The below modifier keys are used along with the numeric keypad to manipulate windows.
 
-|Modifer Keys|Behavior|
+|Numpad Modifer Keys|Behavior|
 |---|---|
-|<kbd>Win</kbd> + <kbd>Numpad</kbd>|Dock window to the corner or side of the screen in the specified direction.|
-|<kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd>|Shrink window in the specified direction.|
-|<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd>|"Scoot" window in the specified direction, jumping one window size in the direction selected. This works alongside window shrinking, to create subquadrants.|
-|<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd>|Detach the current Chrome tab into a new window positioned according to the keypad direction chosen.|
+|<kbd>Win</kbd>|Dock window to the corner or side of the screen in the specified direction.|
+|<kbd>Alt</kbd> + <kbd>Win</kbd>|Shrink window in the specified direction.|
+|<kbd>Ctrl</kbd> + <kbd>Win</kbd>|"Scoot" window in the specified direction, jumping one window size in the direction selected. This works alongside window shrinking, to create subquadrants.|
+|<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd>|Detach the current Chrome tab into a new window positioned according to the keypad direction chosen.|
 
 | |Numeric Keypad| |
 |---|---|---|
