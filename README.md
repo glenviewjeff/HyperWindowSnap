@@ -62,6 +62,8 @@ Hotkey | Behavior
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 7</kbd> | Window will snap to the top-left **quarter** of the screen.
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 8</kbd> | Window will snap to the top **half** of the screen.
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 9</kbd> | Window will snap to the top-right **quarter** of the screen.
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 4</kbd> | Window will snap to the left **half** of the screen.
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 6</kbd> | Window will snap to the right **half** of the screen.
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 1</kbd> | Window will snap to the bottom-left **quarter** of the screen.
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 2</kbd> | Window will snap to the bottom **half** of the screen.
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 3</kbd> | Window will snap to the bottom-right **quarter** of the screen.
