@@ -15,6 +15,7 @@ Hyper Window Snap is a script for [AutoHotKey] that expands upon Windows built-i
 ## Overview of Keyboard Shortcuts
 
 The below modifier keys are used along with the numeric keypad to manipulate windows.
+
 |Modifer Keys|Behavior|
 |---|---|
 |<kbd>Win</kbd> + <kbd>Numpad</kbd>|Dock window to the corner or side of the screen in the specified direction.|
