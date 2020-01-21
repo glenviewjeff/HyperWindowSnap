@@ -10,9 +10,25 @@ Hyper Window Snap is a script for [AutoHotKey] that expands upon Windows built-i
     * The Windows 7 startup folder can be accessed by mousing to **Start** > **All Programs**, then right-clicking on **Startup** and selecting "**Open**".
     * For newer windows versions, the startup folder can be accessed by tapping <kbd>Win</kbd> + <kbd>R</kbd> on your keyboard, then in the Open: field, type `shell:startup` then press <kbd>Enter</kbd>.
 
-## Hyper Window Snap Keybindings
-
 **NOTE:** Numeric keypad hotkeys will work only if you have NumLock turned **ON**. 
+
+## Overview of Keyboard Shortcuts
+
+The below modifier keys are used along with the numeric keypad to manipulate windows.
+|Modifer Keys|Behavior|
+|---|---|
+|<kbd>Win</kbd> + <kbd>Numpad</kbd>|Dock window to the corner or side of the screen in the specified direction.|
+|<kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd>|Shrink window in the specified direction.|
+|<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd>|"Scoot" window in the specified direction, jumping one window size in the direction selected. This works alongside window shrinking, to create subquadrants.|
+|<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd>|Detach the current Chrome tab into a new window positioned according to the keypad direction chosen.|
+
+| |Numeric Keypad| |
+|---|---|---|
+|<kbd>Numpad 7</kbd> <br/> towards top-left quarter|<kbd>Numpad 8</kbd> <br/> towards top half|<kbd>Numpad 9</kbd> <br/> towards top-right quarter|
+|<kbd>Numpad 4</kbd> <br/> towards left half||<kbd>Numpad 6</kbd> <br/> towards right half|
+|<kbd>Numpad 1</kbd> <br/> towards bottom-left quarter|<kbd>Numpad 2</kbd> <br/> towards bottom half|<kbd>Numpad 3</kbd> <br/> towards bottom-right quarter|
+
+## Exhaustive Keyboard Shortcuts
 
 ### Dock Windows to Fixed Positions:
 Hotkey | Behavior
@@ -41,7 +57,7 @@ Hotkey | Behavior
 <kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad 3</kbd> | Window will shrink **down & right**.
 
 ### "Scoot" Windows:
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd> will "scoot" windows in the specified direction, jumping one window width in the direction selected. This works alongside window shrinking, to create subquadrants. **Minor Note:** the keypad 1 and 3 directions aren't yet implemented, but the ones below are functional.
+<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd> will "scoot" windows in the specified direction, jumping one window width in the direction selected. This works alongside window shrinking, to create subquadrants. 
 
 Hotkey | Behavior
 ------ | --------
@@ -67,21 +83,6 @@ Hotkey | Behavior
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 1</kbd> | Window will snap to the bottom-left **quarter** of the screen.
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 2</kbd> | Window will snap to the bottom **half** of the screen.
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 3</kbd> | Window will snap to the bottom-right **quarter** of the screen.
-
-
-### Ctrl + Numberpad Hotkeys for Sizing Wide Landscape Windows:
-Hotkey | Behavior
------- | --------
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>Numpad 8</kbd> | Window will snap to the top **third** of the screen.
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>Numpad 2</kbd> | Window will snap to the bottom **third** of the screen
-
-### Directional Arrow Hotkeys for Sizing Wide Landscape Windows:
-Hotkey | Behavior
------- | --------
-<kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>UP</kbd> | Window will snap to the top **half** of the screen.
-<kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>DOWN</kbd> | Window will snap to the bottom **half** of the screen.
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>UP</kbd> | Window will snap to the top **third** of the screen.
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>DOWN</kbd> | Window will snap to the bottom **third** of the screen.
 
 ## Changelog
 
