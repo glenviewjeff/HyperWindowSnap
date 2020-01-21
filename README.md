@@ -7,8 +7,8 @@ Hyper Window Snap is a script for [AutoHotKey] that expands upon Windows built-i
 1. Install [AutoHotKey]
 2. Copy or Download the **HyperWindowSnap.ahk** file to your computer and double click it to run it.
 3. (Optional) To have the program run when you start up your computer, place the .ahk file into your computer's [startup] folder. 
-    * The Windows 7 Startup Folder can be accessed by mousing to **Start** > **All Programs**, then right-clicking on **Startup** and selecting "**Open**".
-    * The Windows 8 Startup Folder can be accessed by tapping <kbd>Win</kbd> + <kbd>R</kbd> on your keyboard, then in the Open: field, type `shell:startup` then press <kbd>Enter</kbd>.
+    * The Windows 7 startup folder can be accessed by mousing to **Start** > **All Programs**, then right-clicking on **Startup** and selecting "**Open**".
+    * For newer windows versions, the startup folder can be accessed by tapping <kbd>Win</kbd> + <kbd>R</kbd> on your keyboard, then in the Open: field, type `shell:startup` then press <kbd>Enter</kbd>.
 
 ## Hyper Window Snap Keybindings
 
