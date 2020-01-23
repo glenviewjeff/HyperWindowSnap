@@ -1,6 +1,3 @@
-#include %A_ScriptDir%\Hotkeys.ahk
-#include %A_ScriptDir%\Hotstrings.ahk
-
 /**
  * Hyper Window Snap
  * Hyper Window Snap is an AutoHotkey script for moving and resizing windows to into quadrants, especially useful for 4k monitors.
