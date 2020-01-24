@@ -1,6 +1,6 @@
 # Hyper Window Snap
 
-Hyper Window Snap is a script for [AutoHotKey] that expands upon Windows built-in window-snapping hotkeys by adding many new snap methods, including docking, moving, shrinking, windows. It can also detach Chrome tabs into a new window in a desired screen position.
+Hyper Window Snap is a script for [AutoHotKey] that expands upon Windows built-in window-snapping hotkeys by adding many new snap methods, including docking, moving, and shrinking windows. It can also detach Chrome tabs into a new window in a desired screen position.
 
 ## Installation Steps
 
