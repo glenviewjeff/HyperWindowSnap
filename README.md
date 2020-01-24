@@ -89,13 +89,3 @@ Hotkey | Behavior
 
 - **v1.00**, *19 Jan 2020*
     - Initial Version forked from Advanced Window Snap
-
-## Recommendation For Editing AHK Files
-If you plan on working with AutoHotKey files, consider using [Sublime Text 3]. Read my steps for setting up Sublime Text 3 to edit AutoHotKey files here: [Working with AutoHotKey in Sublime Text].
-
-[AutoHotKey]:http://ahkscript.org/
-[startup]:http://www.autohotkey.com/docs/FAQ.htm#Startup]
-[Sublime Text 3]:http://www.sublimetext.com/3
-[Package Control]:https://packagecontrol.io/installation
-[AutoHotKey Package]:https://packagecontrol.io/packages/AutoHotkey
-[Working with AutoHotKey in Sublime Text]:https://gist.github.com/AWMooreCO/d0308bab265cc8c5e122
