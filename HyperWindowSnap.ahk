@@ -28,6 +28,7 @@ SplitSnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
   sleep 500
   SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight)
 }
+
 SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
     WinGet activeWin, ID, A
     activeMon := GetMonitorIndexFromWindow(activeWin)
