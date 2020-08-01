@@ -22,7 +22,10 @@
  */
  
 SplitSnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
-	Send ^l^c^w^n^v{enter}
+	Send ^l^c
+  SetKeyDelay, 100
+  Send ^w^n^v{enter}
+  SetKeyDelay, -1
 	sleep 500
 	SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight)
 }
