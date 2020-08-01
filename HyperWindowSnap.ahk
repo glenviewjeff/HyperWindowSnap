@@ -22,10 +22,16 @@
  */
  
 SplitSnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
-  SendInput ^l^c^w^n
+  oldClipboard = clipboardAll
+  clipboard =
+  while(clipboard == "") {
+    SendInput ^l^c
+  }
+  SendInput ^w^n
   WinWaitNotActive
-  SendInput ^v{enter}
-  SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight)
+  SendInput %clipboard%{enter}
+  clipboard = %oldClipboard%
+	SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight)
 }
 
 SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
