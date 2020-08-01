@@ -48,14 +48,14 @@ Hotkey | Behavior
 
 Hotkey | Behavior
 ------ | --------
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad 7</kbd> | Window will shrink **up & left**.
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad 8</kbd> | Window will shrink **up**.
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad 9</kbd> | Window will shrink **up & right**.
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad 4</kbd> | Window will shrink **left**.
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad 6</kbd> | Window will shrink **right**.
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad 1</kbd> | Window will shrink **down & left**.
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad 2</kbd> | Window will shrink **down**.
-<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad 3</kbd> | Window will shrink **down & right**.
+<kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 7</kbd> | Window will shrink **up & left**.
+<kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 8</kbd> | Window will shrink **up**.
+<kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 9</kbd> | Window will shrink **up & right**.
+<kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 4</kbd> | Window will shrink **left**.
+<kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 6</kbd> | Window will shrink **right**.
+<kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 1</kbd> | Window will shrink **down & left**.
+<kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 2</kbd> | Window will shrink **down**.
+<kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad 3</kbd> | Window will shrink **down & right**.
 
 ### "Scoot" Windows:
 <kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd> will "scoot" windows in the specified direction, jumping one window width in the direction selected. This works alongside window shrinking, to create subquadrants. 
