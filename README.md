@@ -44,7 +44,7 @@ Hotkey | Behavior
 <kbd>Win</kbd> + <kbd>Numpad 3</kbd> | Window will snap to the bottom-right **quarter** of the screen.
 
 ### Shrink Windows:
-<kbd>Alt</kbd> + <kbd>Win</kbd> + numeric keypad direction will shrink the active window in the direction of the keypad, either by half or quarter as applicable.
+<kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd> will shrink the active window in the direction of the keypad, either by half or quarter as applicable.
 
 Hotkey | Behavior
 ------ | --------
