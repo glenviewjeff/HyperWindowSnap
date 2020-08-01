@@ -182,8 +182,8 @@ GetMonitorIndexFromWindow(windowHandle) {
 #Numpad2::SnapActiveWindow("bottom","full","half")
 #Numpad3::SnapActiveWindow("bottom","right","half")
 
-; Ctrl + Alt + Win + keypad = split off Chrome tab and move to new window
-#IfWinActive ahk_exe chrome.exe
+; Ctrl + Alt + Win + keypad = split off Chrome or Edge tab and move to new window
+#If WinActive("ahk_exe chrome.exe") || WinActive("ahk_exe msedge.exe")
 ^#!Numpad7::SplitSnapActiveWindow("top","left","half")
 ^#!Numpad8::SplitSnapActiveWindow("top","full","half")
 ^#!Numpad9::SplitSnapActiveWindow("top","right","half")
