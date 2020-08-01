@@ -22,14 +22,12 @@
  */
  
 SplitSnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
-	Send ^l^c
-	SetKeyDelay, 100
-	Send ^w^n^v{enter}
-	SetKeyDelay, -1
-	sleep 500
-	SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight)
+  SendInput ^l^c^w^n
+  WinWaitNotActive
+  SendInput ^v{enter}
+  sleep 500
+  SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight)
 }
-
 SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
     WinGet activeWin, ID, A
     activeMon := GetMonitorIndexFromWindow(activeWin)
