@@ -25,7 +25,6 @@ SplitSnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
   SendInput ^l^c^w^n
   WinWaitNotActive
   SendInput ^v{enter}
-  sleep 500
   SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight)
 }
 
