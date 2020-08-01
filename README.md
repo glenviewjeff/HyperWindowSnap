@@ -1,6 +1,6 @@
 # Hyper Window Snap
 
-Hyper Window Snap is a script for [AutoHotKey] that expands upon Windows built-in window-snapping hotkeys by adding many new snap methods, including docking, moving, and shrinking windows. It can also detach Chrome tabs into a new window in a desired screen position.
+Hyper Window Snap is a script for [AutoHotKey] that expands upon Windows built-in window-snapping hotkeys by adding many new snap methods, including docking, moving, and shrinking windows. It can also detach Chrome or Microsoft Edge browser tabs into a new window in a desired screen position.
 
 ## Installation Steps
 
@@ -21,7 +21,7 @@ The below modifier keys are used along with the numeric keypad to manipulate win
 |<kbd>Win</kbd>|Dock window to the corner or side of the screen in the specified direction.|
 |<kbd>Alt</kbd> + <kbd>Win</kbd>|Shrink window in the specified direction.|
 |<kbd>Ctrl</kbd> + <kbd>Win</kbd>|"Scoot" window in the specified direction, jumping one window size in the direction selected. This works alongside window shrinking, to create subquadrants.|
-|<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd>|Detach the current Chrome tab into a new window positioned according to the keypad direction chosen.|
+|<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd>|Detach the current browser tab into a new window positioned according to the keypad direction chosen.|
 
 | |Numeric Keypad| |
 |---|---|---|
@@ -71,8 +71,8 @@ Hotkey | Behavior
 <kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad 2</kbd> | Window will move **down**.
 <kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Numpad 3</kbd> | Window will move **down & right**.
 
-### Detach Chrome Tab and Snap New Window:
-<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd> moves the current Chrome tab into a new window positioned according to the keypad direction chosen.
+### Detach Browser Tab and Snap New Window:
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd> moves the current browser tab into a new window positioned according to the keypad direction chosen.
 
 Hotkey | Behavior
 ------ | --------
