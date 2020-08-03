@@ -30,7 +30,7 @@ SplitSnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
   SendInput ^w^n
   WinWaitNotActive
   SendInput %clipboard%{enter}
-  clipboard = %oldClipboard%
+  clipboard := %oldClipboard%
 	SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight)
 }
 
