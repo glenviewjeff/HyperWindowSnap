@@ -35,9 +35,13 @@ SplitSnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
 }
 
 SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
-    WinGet activeWin, ID, A
+    activeWin := WinExist("A")
     activeMon := GetMonitorIndexFromWindow(activeWin)
-
+    WinGet, MinMaxState, MinMax, A
+    If (MinMaxState) {
+       WinRestore, A
+    }
+    
     SysGet, MonitorWorkArea, MonitorWorkArea, %activeMon%
 
     if (winSizeHeight == "half") {
