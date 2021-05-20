@@ -7,7 +7,7 @@
  * @author Jeff Axelrod <jeff+github@theaxelrods.com>
  * @version 1.0
  */
-
+ 
 /**
  * SnapActiveWindow resizes and moves (snaps) the active window to a given position.
  * @param {string} winPlaceVertical   The vertical placement of the active window.
