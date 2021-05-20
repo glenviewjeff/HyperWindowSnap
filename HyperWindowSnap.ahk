@@ -35,42 +35,44 @@ SplitSnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
 }
 
 SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
+		heightOffset := 7
+		widthOffset := 15
     activeWin := WinExist("A")
     activeMon := GetMonitorIndexFromWindow(activeWin)
-    WinGet, MinMaxState, MinMax, A
-    If (MinMaxState) {
-       WinRestore, A
-    }
-    
+		WinGet, MinMaxState, MinMax, A
+		If (MinMaxState) {
+			WinRestore, A
+		}
+	
     SysGet, MonitorWorkArea, MonitorWorkArea, %activeMon%
 
     if (winSizeHeight == "half") {
-        height := (MonitorWorkAreaBottom - MonitorWorkAreaTop)/2
+        height := (MonitorWorkAreaBottom - MonitorWorkAreaTop)/2 + heightOffset
     } else if (winSizeHeight == "full") {
-        height := (MonitorWorkAreaBottom - MonitorWorkAreaTop)
-	 } else if (winSizeHeight == "third") {
+        height := (MonitorWorkAreaBottom - MonitorWorkAreaTop) + heightOffset
+		} else if (winSizeHeight == "third") {
         height := (MonitorWorkAreaBottom - MonitorWorkAreaTop)/3
     }
 
     if (winPlaceHorizontal == "left") {
         posX  := MonitorWorkAreaLeft
-        width := (MonitorWorkAreaRight - MonitorWorkAreaLeft)/2
+        width := (MonitorWorkAreaRight - MonitorWorkAreaLeft)/2 + widthOffset
     } else if (winPlaceHorizontal == "right") {
         posX  := MonitorWorkAreaLeft + (MonitorWorkAreaRight - MonitorWorkAreaLeft)/2
-        width := (MonitorWorkAreaRight - MonitorWorkAreaLeft)/2
+        width := (MonitorWorkAreaRight - MonitorWorkAreaLeft)/2 + widthOffset
     } else {
         posX  := MonitorWorkAreaLeft
-        width := MonitorWorkAreaRight - MonitorWorkAreaLeft
+        width := MonitorWorkAreaRight - MonitorWorkAreaLeft + widthOffset
     }
 
     if (winPlaceVertical == "bottom") {
-        posY := MonitorWorkAreaBottom - height
+        posY := MonitorWorkAreaBottom - height + heightOffset
     } else if (winPlaceVertical == "middle") {
         posY := MonitorWorkAreaTop + height
     } else {
         posY := MonitorWorkAreaTop
     }
-
+	
     WinMove,A,,%posX%,%posY%,%width%,%height%
 }
 
