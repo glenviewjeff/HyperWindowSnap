@@ -35,8 +35,10 @@ SplitSnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
 }
 
 SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
-		heightOffset := 7
-		widthOffset := 15
+    heightOffset := 7
+    widthOffset := 15
+    xOffset : = 7
+    
     activeWin := WinExist("A")
     activeMon := GetMonitorIndexFromWindow(activeWin)
 		WinGet, MinMaxState, MinMax, A
@@ -55,13 +57,13 @@ SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
     }
 
     if (winPlaceHorizontal == "left") {
-        posX  := MonitorWorkAreaLeft
+        posX  := MonitorWorkAreaLeft - xOffset
         width := (MonitorWorkAreaRight - MonitorWorkAreaLeft)/2 + widthOffset
     } else if (winPlaceHorizontal == "right") {
-        posX  := MonitorWorkAreaLeft + (MonitorWorkAreaRight - MonitorWorkAreaLeft)/2
+        posX  := MonitorWorkAreaLeft + (MonitorWorkAreaRight - MonitorWorkAreaLeft)/2 - xOffset
         width := (MonitorWorkAreaRight - MonitorWorkAreaLeft)/2 + widthOffset
     } else {
-        posX  := MonitorWorkAreaLeft
+        posX  := MonitorWorkAreaLeft - xOffset
         width := MonitorWorkAreaRight - MonitorWorkAreaLeft + widthOffset
     }
 
