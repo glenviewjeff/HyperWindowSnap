@@ -47,14 +47,14 @@ Hotkey | Behavior
 ### Activate Windows:
 Hotkey | Behavior
 ------ | --------
-<kbd>Numpad 7</kbd> | Window will snap to the top-left **quarter** of the screen.
-<kbd>Numpad 8</kbd> | Window will snap to the top **half** of the screen.
-<kbd>Numpad 9</kbd> | Window will snap to the top-right **quarter** of the screen.
-<kbd>Numpad 4</kbd> | Window will snap to the left **half** of the screen.
-<kbd>Numpad 6</kbd> | Window will snap to the right **half** of the screen.
-<kbd>Numpad 1</kbd> | Window will snap to the bottom-left **quarter** of the screen.
-<kbd>Numpad 2</kbd> | Window will snap to the bottom **half** of the screen.
-<kbd>Numpad 3</kbd> | Window will snap to the bottom-right **quarter** of the screen.
+<kbd>Numpad 7</kbd> | Activate window at the top-left **quarter** of the screen.
+<kbd>Numpad 8</kbd> | Activate window at the top **half** of the screen.
+<kbd>Numpad 9</kbd> | Activate window at the top-right **quarter** of the screen.
+<kbd>Numpad 4</kbd> | Activate window at the left **half** of the screen.
+<kbd>Numpad 6</kbd> | Activate window at the right **half** of the screen.
+<kbd>Numpad 1</kbd> | Activate window at the bottom-left **quarter** of the screen.
+<kbd>Numpad 2</kbd> | Activate window at the bottom **half** of the screen.
+<kbd>Numpad 3</kbd> | Activate window at the bottom-right **quarter** of the screen.
 
 ### Shrink Windows:
 <kbd>Alt</kbd> + <kbd>Win</kbd> + <kbd>Numpad</kbd> will shrink the active window in the direction of the keypad, either by half or quarter as applicable.
