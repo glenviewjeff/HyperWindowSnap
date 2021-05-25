@@ -122,6 +122,34 @@ min(x,y)
 return x < y ? x : y
 }
 
+activateWindow(num) {
+	WinGet activeWin, ID, A
+	activeMon := GetMonitorIndexFromWindow(activeWin)
+	SysGet, MonitorWorkArea, MonitorWorkArea, %activeMon%
+	CoordMode, Mouse, Screen
+	Switch num {
+		Case 7:
+			MouseMove MonitorWorkAreaRight / 4, MonitorWorkAreaBottom / 4, 0
+		Case 8:
+			MouseMove MonitorWorkAreaRight / 2, MonitorWorkAreaBottom / 4, 0
+		Case 9:
+			MouseMove 3 * MonitorWorkAreaRight / 4, MonitorWorkAreaBottom / 4, 0
+		Case 4:
+			MouseMove MonitorWorkAreaRight / 4, MonitorWorkAreaBottom / 2, 0
+		Case 6:
+			MouseMove 3 * MonitorWorkAreaRight / 4, MonitorWorkAreaBottom / 2, 0
+		Case 1:
+			MouseMove MonitorWorkAreaRight / 4, 3 * MonitorWorkAreaBottom / 4, 0
+		Case 2:
+			MouseMove MonitorWorkAreaRight / 2, 3 * MonitorWorkAreaBottom / 4, 0
+		Case 3:
+			MouseMove 3 * MonitorWorkAreaRight / 4, 3 * MonitorWorkAreaBottom / 4, 0
+	}
+	Sleep, 100
+	MouseGetPos,,, hwnd 
+	WinActivate, ahk_id %hwnd%
+}
+
 moveActiveWindow(command) {
     WinGet activeWin, ID, A
     activeMon := GetMonitorIndexFromWindow(activeWin)
@@ -186,6 +214,16 @@ GetMonitorIndexFromWindow(windowHandle) {
 
     return %monitorIndex%
 }
+
+; Numpad unmodified, activate corresponding window
+Numpad1::activateWindow(1)
+Numpad2::activateWindow(2)
+Numpad3::activateWindow(3)
+Numpad4::activateWindow(4)
+Numpad6::activateWindow(6)
+Numpad7::activateWindow(7)
+Numpad8::activateWindow(8)
+Numpad9::activateWindow(9)
 
 ; Win + Numpad = Snap to conrners for diagonals, or top, bottom, left, right of screen (Landscape)
 #Numpad7::SnapActiveWindow("top","left","half")
