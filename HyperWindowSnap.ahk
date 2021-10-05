@@ -37,7 +37,7 @@ SplitSnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
 SnapActiveWindow(winPlaceVertical, winPlaceHorizontal, winSizeHeight) {
     heightOffset := 7
     widthOffset := 15
-    xOffset : = 7
+    xOffset := 7
     
     activeWin := WinExist("A")
     activeMon := GetMonitorIndexFromWindow(activeWin)
